@@ -1,0 +1,24 @@
+
+version: 2
+
+sources:
+  - name: raw
+    schema: public
+    tables:
+      - name: workers
+      - name: tasks
+      - name: checkins
+      - name: complaints
+
+models:
+  - name: fct_worker_productivity
+    description: Aggregated productivity per worker per day
+    columns:
+      - name: worker_id
+      - name: work_date
+      - name: checkins_count
+  - name: fct_location_hygiene
+    description: Hygiene freshness by location based on last check-in
+    columns:
+      - name: location
+      - name: last_checkin_ts

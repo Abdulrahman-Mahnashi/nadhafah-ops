@@ -1,0 +1,13 @@
+
+pandas
+numpy
+scikit-learn
+streamlit
+snowflake-connector-python
+dbt-core
+dbt-snowflake
+sqlalchemy
+pyyaml
+shap
+python-dotenv
+plotly

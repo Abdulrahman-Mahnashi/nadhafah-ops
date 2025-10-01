@@ -1,0 +1,35 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+.env
+.env.*
+venv/
+dist/
+build/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Data
+data/raw/*
+!data/mock/*
